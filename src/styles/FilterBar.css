@@ -1,14 +1,16 @@
-body{
+body {
   background-color: rgb(133, 132, 132);
+ 
 }
 
 .custom-filterbar {
   margin: 20px;
+
 }
 
 .custom-toolbar {
-  align-items: stretch;
   background-color: white;
+  margin-left: -53px;
 }
 
 .filterbar-inputs {
@@ -20,4 +22,36 @@ body{
 .filterbar-input {
   margin: 10px;
   flex-grow: 1;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .custom-filterbar {
+    margin: 10px;
+  }
+
+  .filterbar-inputs {
+    flex-direction: column;
+  }
+
+  .filterbar-input {
+    margin: 5px;
+    width: 100%;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 960px) {
+  .custom-filterbar {
+    margin: 30px;
+  }
+
+  .filterbar-inputs {
+    justify-content: flex-end;
+  }
+
+  .filterbar-input {
+    margin: 10px;
+    width: auto;
+  }
 }

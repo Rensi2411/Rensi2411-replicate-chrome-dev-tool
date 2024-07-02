@@ -1,5 +1,5 @@
 .custom-request-list {
-  padding: 0px;
+  padding: 0;
 }
 
 .custom-list-item {
@@ -9,4 +9,16 @@
 .empty-list-message {
   padding: 12px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-request-list {
+    padding: 0;
+  }
+
+  .custom-list-item {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+  }
 }

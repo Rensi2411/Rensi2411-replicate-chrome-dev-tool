@@ -27,6 +27,9 @@ function CustomRequestList({ customRequests, onCustomSelectRequest }) {
             <ListItemText
               primary={customRequest.url}
               secondary={`${customRequest.method} - ${customRequest.status || "Pending"}`}
+              style={{ 
+                fontStyle: "italic",
+              }}
             />
           </ListItem>
         ))

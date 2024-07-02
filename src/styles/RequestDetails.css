@@ -15,4 +15,19 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
+  font-size: 1.2rem; 
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .custom-request-details {
+    padding: 10px;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 960px) {
+  .custom-request-details {
+    padding: 30px;
+  }
 }
