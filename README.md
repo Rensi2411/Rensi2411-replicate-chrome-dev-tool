@@ -54,7 +54,8 @@ https://6683ed1bab199f428cbd1ee8--joyful-cassata-823f82.netlify.app/
 
 
 ## Mobile View
-![Uploading Screenshot 2024-07-02 175326.png…]()
+![Screenshot 2024-07-02 175326](https://github.com/Rensi2411/Rensi2411-replicate-chrome-dev-tool/assets/131978061/16f4903b-62b4-4220-a6ab-0e562dacfe32)
+
 
 
 ## Future Improvements
