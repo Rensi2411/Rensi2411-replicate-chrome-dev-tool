@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(133, 132, 132);
+}
+
+.custom-filterbar {
+  margin: 20px;
+}
+
+.custom-toolbar {
+  align-items: stretch;
+  background-color: white;
+}
+
+.filterbar-inputs {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+.filterbar-input {
+  margin: 10px;
+  flex-grow: 1;
+}

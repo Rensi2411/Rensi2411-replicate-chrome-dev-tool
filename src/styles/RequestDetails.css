@@ -1,0 +1,18 @@
+.custom-request-details {
+  padding: 20px;
+}
+
+.custom-accordion {
+  margin-top: 10px;
+}
+
+.custom-pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.empty-message {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,12 @@
+.custom-request-list {
+  padding: 0px;
+}
+
+.custom-list-item {
+  margin: 10px;
+}
+
+.empty-list-message {
+  padding: 12px;
+  text-align: center;
+}
