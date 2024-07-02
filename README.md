@@ -43,18 +43,18 @@ To run the application locally:
 - **Sending Custom Requests**: Enter a URL, select a method (GET, POST, etc.), and optionally provide a request body to send a custom request.
 
 ## Deploy Link
-
-
-## Demo video
-
+https://6683ed1bab199f428cbd1ee8--joyful-cassata-823f82.netlify.app/
 
 ## Laptop View
+![Screenshot 2024-07-02 175313](https://github.com/Rensi2411/Rensi2411-replicate-chrome-dev-tool/assets/131978061/2737528f-28b7-4f20-b49f-a92efa9989e6)
 
 
 ## Tablet View
+![Screenshot 2024-07-02 175342](https://github.com/Rensi2411/Rensi2411-replicate-chrome-dev-tool/assets/131978061/4de6b14a-3dbf-4e1d-bcca-00800399c868)
 
 
 ## Mobile View
+![Uploading Screenshot 2024-07-02 175326.png…]()
 
 
 ## Future Improvements
