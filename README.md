@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Network Request Monitoring App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application monitors and displays network requests made by a web page, providing details and filtering options for different request types.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Request Monitoring**: Tracks all network requests initiated by the page.
+- **Request Details**: Displays detailed information about each request, including URL, method, status, timing, headers, payload, and response details.
+- **Filtering**: Allows filtering of requests by type (XHR, JS, CSS, etc.).
+- **Error Handling**: Shows error details for failed requests.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Frontend framework for building user interfaces.
+- **Material-UI**: React component library for styling and layout.
+- **JavaScript**: Programming language used for application logic.
+- **CSS**: Styling for components and layout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the application locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository:
+   ``` bash
+   git clone https://github.com/Rensi2411/Rensi2411-replicate-chrome-dev-tool.git
+   cd react-network-monitor
 
-### `npm run build`
+2. Install dependencies:
+   ```bash
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   ```bash
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open your browser and go to http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- **Viewing Requests**: Upon loading the application, all network requests made by the page will be listed in the left panel.
+- **Details**: Click on a request to view detailed information including headers, payload, and response details.
+- **Filtering**: Use the dropdown in the toolbar to filter requests by type (XHR, JS, CSS, etc.).
+- **Sending Custom Requests**: Enter a URL, select a method (GET, POST, etc.), and optionally provide a request body to send a custom request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deploy Link
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Demo video
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Laptop View
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tablet View
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Mobile View
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Future Improvements
 
-### Making a Progressive Web App
+1. Implementing Dark Mode Support
+2. Lazy Loading for Request Details
+3. Adding WebSocket Monitoring
+Feel free to contribute to this project by submitting pull requests or opening issues for any bugs or feature requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author:
+- Rensi Dudhat
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
